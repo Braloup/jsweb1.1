@@ -13,3 +13,15 @@ import "./style.scss";
 */
 
 console.log("Hey look in your browser console. It works!");
+
+document.querySelector("#blue").addEventListener("click", () => {
+  document.querySelector(".changeMe").style.backgroundColor = "blue";
+})
+
+document.querySelector("#red").addEventListener("click", () => {
+  document.querySelector(".changeMe").style.backgroundColor = "red";
+})
+
+document.querySelector("#green").addEventListener("click", () => {
+  document.querySelector(".changeMe").style.backgroundColor = "green"; 
+})
